@@ -1,5 +1,5 @@
-import lib.molar_weight
-import lib.pH
+import modules.molar_weight
+import modules.pH
 
 from helpers.parsing import main_parser
 
