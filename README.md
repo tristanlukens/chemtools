@@ -17,6 +17,8 @@ For data concerning the periodic table (atomic mass etc), [a JSON periodic table
 
 The `argparse` python module is used to define commands. The `subcommand` decorator and `argument` function from [this blogpost by Mike Depaltis](https://mike.depalatis.net/blog/simplifying-argparse.html) are a fantastic way to streamline its usage.
 
+Other credits are listed in code comments.
+
 ## License
 
 MIT &rarr; see LICENSE
