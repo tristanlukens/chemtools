@@ -4,12 +4,12 @@ import math
 
 
 def _pH_action(args):
-    calculate = lambda c: -1 * math.log(
-        c, 10
-    )  # Anonymous function to quickly calculate pH (or pOH) from hydronium (or hydroxide) concentration
+    # Anonymous function to quickly calculate pH (or pOH) from hydronium (or hydroxide) concentration
+    calculate = lambda c: -1 * math.log(c, 10)
 
-    concentration = float(args.concentration)
-    concentration = concentration / 1000 if args.milli else concentration
+    concentration = (
+        float(args.concentration) / 1000 if args.milli else float(args.concentration)
+    )
 
     decimals = int(args.decimals)
 
